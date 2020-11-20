@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sterilwize</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>SterilWize | Smart Sterilization Workflow Management System &amp; Software for Dentist &amp; Medical Practitioners | Wize.ai | Toronto, Canada</title>
+</head>
+<body>
+ 
+  <app-root></app-root>
+  
+  
+  
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script type="text/javascript">
+      
+    $(window).scroll(function() {
+     if ($(this).scrollTop() > 1){  
+        $('header').addClass("sticky");
+      }
+      else{
+        $('header').removeClass("sticky");
+      }
+     });
+
+     $('.owl-carousel').owlCarousel({
+          loop:true,
+          margin:10,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items:1,
+                  nav:true
+              },
+              600:{
+                  items:1,
+                  nav:false
+              },
+              1000:{
+                  items:1,
+                  nav:true,
+                  loop:false
+              }
+          }
+      })
+
+    </script>
+</body>
+</html>
